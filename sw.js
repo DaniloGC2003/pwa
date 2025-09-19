@@ -1,8 +1,7 @@
-// Minimal service worker
-self.addEventListener("install", event => {
-  console.log("Service Worker installed");
+self.addEventListener('install', event => {
+  console.log('Service Worker installing.');
 });
 
-self.addEventListener("fetch", event => {
-  // Just let requests pass through (no caching yet)
+self.addEventListener('fetch', event => {
+  // basic; could add caching at some point
 });
